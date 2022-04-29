@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<style media="screen">
+		body {
+			text-align: center !important;
+		}
+
+		.heading {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 40px;
+			color: white;
+			
+		}
+
+		.heading2 {
+			font-family: Arial, Helvetica, sans-serif;
+			color: white;
+		}
+
+		body {
+			
+			
+			
+		}
+		.fitset {
+			background-image: linear-gradient(#000428,#004e92) ;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100%;
+		}
+		.dropdown {
+			border-radius: 12px;
+			padding: 5px;
+			font-size: 20px;
+			padding-left: 27px;
+
+		}
+		.fmh{
+			height: 595px;
+		}
+	</style>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>Market</title>
+</head>
+
+<body  background="bull.jpg" class="fitset">
+	
+	<h1 class="heading">Fetch the Data Related to Any Stock</h1>
+	<br>
+	<h2 class="heading2">Select the Stock</h2>
+	<form class="fmh" action="/data" method="post">
+		<select class="dropdown" name="stockSelected" style="width: 180px; height: 50px;">
+			<option value="RELIANCE">
+				RELIANCE
+			</option>
+			<option value="INFY">
+				INFOSYS
+			</option>
+			<option value="TCS">
+				TCS
+			</option>
+			<option value="WIPRO">
+				WIPRO
+			</option>
+			<option value="ICICIBANK">
+				ICICI Bank
+			</option>
+			<option value="ITC">
+				ITC
+			</option>
+			<option value="M&M">
+				M&M
+			</option>
+			<option value="DIVISLAB">
+				DIVISLAB
+			</option>
+			<option value="CIPLA">
+				CIPLA
+			</option>
+			<option value="BAJAJ-AUTO">
+				BAJAJ-AUTO
+			</option>
+			<option value="COALINDIA">
+				COALINDIA
+			</option>
+			<option value="HINDUNILVR">
+				HINDUNILVR
+			</option>
+			<option value="HDFCLIFE">
+				HDFCLIFE
+			</option>
+			<option value="NESTLEIND">
+				NESTLEIND
+			</option>
+			<option value="SBILIFE">
+				SBILIFE
+			</option>
+			<option value="TATASTEEL">
+				TATASTEEL
+			</option>
+			<option value="ONGC">
+				ONGC
+			</option>
+			<option value="HINDALCO">
+				HINDALCO
+			</option>
+			<option value="BAJFINANCE">
+				BAJFINANCE
+			</option>
+			<option value="EICHERMOT">
+				EICHERMOT
+			</option>
+			<option value="NTPC">
+				NTPC
+			</option>
+			<option value="SHREECEM">
+				SHREECEM
+			</option>
+			<option value="BRITANIA">
+				BRITANIA
+			</option>
+			<option value="HEROMOTOCO">
+				HEROMOTOCO
+			</option>
+			<option value="TITAN">
+				TITAN
+			</option>
+			<option value="TATACONSUM">
+				TATACONSUM
+			</option>
+			<option value="MARUTI">
+				MARUTI
+			</option>
+			<option value="JSWSTEEL">
+				JSWSTEEL
+			</option>
+			<option value="IOC">
+				IOC
+			</option>
+			<option value="BPCL">
+				BPCL
+			</option>
+			<option value="INDUSINDBK">
+				INDUSINDBK
+			</option>
+			<option value="DRREDDY">
+				DRREDDY
+			</option>
+			<option value="AXISBANK">
+				AXISBANK
+			</option>
+			<option value="ULTRACEMCO">
+				ULTRACEMCO
+			</option>
+			<option value="TATAMOTORS">
+				TATAMOTORS
+			</option>
+			<option value="SUNPHARMA">
+				SUNPHARMA
+			</option>
+			<option value="BPCL">
+				BPCL
+			</option>
+			<option value="ASIANPAINT">
+				ASIANPAINT
+			</option>
+			<option value="ADANIPORTS">
+				ADANIPORTS
+			</option>
+			<option value="GRASIM">
+				GRASIM
+			</option>
+			<option value="KOTAKBANK">
+				KOTAKBANK
+			</option>
+			<option value="LT">
+				LT
+			</option>
+			<option value="BAJAJFINSV">
+				BAJAJFINSV
+			</option>
+			<option value="BHARTIARTL">
+				BHARTIARTL
+			</option>
+			<option value="SBIN">
+				SBIN
+			</option>
+			<option value="UPL">
+				UPL
+			</option>
+			<option value="HCLTECH">
+				HCLTECH
+			</option>
+			<option value="HDFCBANK">
+				HDFCBANK
+			</option>
+			<option value="HDFC">
+				HDFC
+			</option>
+			<option value="TECHM">
+				TECHM
+			</option>
+		</select>
+		<button type="submit" name="button">
+			Fetch Data
+		</button>
+	</form>
+	
+</body>
+
+</html>
